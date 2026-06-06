@@ -1,0 +1,39 @@
+# ======== STM32 工程 .gitignore ========
+
+# 编译产物
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.bin
+*.elf
+*.lst
+*.htm
+*.build_log.htm
+*.map
+*.__i
+*.lnp
+*.sct
+
+# MDK-ARM 编译输出
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+MDK-ARM/build/
+MDK-ARM/.cmsis/**
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.bak
+
+# IDE 个人配置
+MDK-ARM/.vscode/
+MDK-ARM/.clang-format
+MDK-ARM/.eide/
+MDK-ARM/*.code-workspace
+
+# 系统文件
+Thumbs.db
+.DS_Store
+Desktop.ini
